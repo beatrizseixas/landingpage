@@ -5,9 +5,10 @@
 
 
 section{
-	position: fixed;
+	position: relative;
+	width: 100%
 	min-height: 100vh;
-	padding: 20px;
+	padding: 100px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -82,9 +83,9 @@ header ul li a{
 }
 
 .content .imgBox{
-	width: 700px;
+	width: 600px;
 	height: 500px;
 	display: inline-flex;
 	justify-content: flex-start;
-	padding-right: 280px;
+	padding-right: 250px;
 }
